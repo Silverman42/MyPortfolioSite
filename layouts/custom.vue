@@ -11,7 +11,7 @@
           <nuxt-link class="nav-key" :style="changeKeyBg('/about')" to="/about"><span><i class="fa fas fa-info-circle"></i></span></nuxt-link>
           <nuxt-link class="nav-key" :style="changeKeyBg('/projects')" to="/projects"><span><i class="fa fas fa-project-diagram"></i></span></nuxt-link>
           <nuxt-link class="nav-key" :style="changeKeyBg('/events')" to="/events"><span><i class="fa fas fa-calendar-alt"></i></span></nuxt-link>
-          <nuxt-link class="nav-key" :style="changeKeyBg('/contact')" to="/contact"><span>C</span></nuxt-link>
+          <nuxt-link class="nav-key" :style="changeKeyBg('/contact')" to="/contact"><span><i class="fas fa-comment-alt"></i></span></nuxt-link>
       </div>
     </div>
   </nav>
@@ -94,17 +94,12 @@ export default {
 <style lang="scss">
 .main{
   position:relative;
-  top: 0px;
-  bottom: 0px; 
-  right: 0px;
-  left: 0px;
   min-height: 100vh;
   width: 100vw;
   background-color: white;
   transition: background-color 0.4s ease-out;
   -webkit-transition: background-color 0.4s ease-out;
   box-sizing: border-box;
-  overflow-y:auto;
 }
 .page-switch{
   display: block;
