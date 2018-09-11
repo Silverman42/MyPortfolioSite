@@ -1,0 +1,78 @@
+/*Mixins*/
+
+//Vendors
+
+
+@mixin vendors($attribute, $values...){
+	@each $value in $values {
+		#{$attribute} : $value ;
+		-webkit-#{$attribute} : $value ;
+		-moz-#{$attribute} : $value ; 
+		-o-#{$attribute} : $value ;	
+	} 
+}
+
+@mixin transitions($values...){
+	@each $value in $values {
+		transition : $value ;
+		-webkit-transition : $value ;
+		-moz-transition : $value; 
+		-o-transition : $value ;
+	} 
+}
+
+//Padding
+@mixin padding-vertical($padding-size) {
+	padding-top: $padding-size;
+	padding-bottom: $padding-size;
+}
+
+@mixin padding-horizontal($padding-size) {
+	padding-left: $padding-size;
+	padding-right: $padding-size;
+}
+
+//Padding
+@mixin margin-vertical($margin-size) {
+	margin-top: $margin-size;
+	margin-bottom: $margin-size;
+}
+
+@mixin margin-horizontal($margin-size) {
+	margin-left: $margin-size;
+	margin-right: $margin-size;
+}
+
+//Flex- row arrangment
+
+
+/*Variables*/
+
+
+
+//fonts
+$size-6: 0.9rem;
+$letter-spacing: 0.2rem;
+
+//Navbar
+$navbar-height: 5rem;
+$navbar-item-hover-color: black;
+$navbar-item-hover-background-color: white;
+$navbar-item-color: grey;
+$navbar-item-img-max-height: 3rem;
+$navbar-background-color: #fcfcfc;
+
+//Padding and Margin
+$space-1: 0.5rem;
+$space-2: 1rem;
+$space-3: 1.5rem;
+$space-4: 2rem;
+
+//Box Shadow
+$box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.1);
+
+//font-Awesome
+$fa-font-path: "../static/webfonts";
+
+//Pagination
+$pagination-border-color: rgb(230,230,230);

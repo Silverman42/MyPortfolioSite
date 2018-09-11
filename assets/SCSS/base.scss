@@ -1,0 +1,92 @@
+.has-padding{
+	&.pv1{
+		@include padding-vertical($space-1);
+	}
+	&.pv2{
+		@include padding-vertical($space-2);
+	}
+	&.pv3{
+		@include padding-vertical($space-3);
+	}
+	&.ph1{
+		@include padding-horizontal($space-1);
+	}
+	&.ph2{
+		@include padding-horizontal($space-2);
+	}
+	&.ph3{
+		@include padding-horizontal($space-3);
+	}
+
+}
+
+//Margin
+.has-margin{
+	&.mv1{
+		@include margin-vertical($space-1);
+	}
+	&.mv2{
+		@include margin-vertical($space-2);
+	}
+	&.mv3{
+		@include margin-vertical($space-3);
+	}
+	&.mh1{
+		@include margin-horizontal($space-1);
+	}
+	&.mh2{
+		@include margin-horizontal($space-2);
+	}
+	&.mh3{
+		@include margin-horizontal($space-3);
+	}
+
+}
+
+//Box Shadow Mixin
+
+.is-shadowed{
+	@include vendors (transition, box-shadow 0.4s ease-out);
+
+	&:hover, &:focus{
+		box-shadow: $box-shadow;
+	}
+}
+
+.is-relative{
+	position: relative;
+}
+
+.has-no-overflow{
+	overflow: hidden;
+}
+
+/*Extends*/
+%feedback{
+	transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+	-webkit-transition: transform 0.4s ease-out, box-shadow 0.4s ease-out;
+
+		&:hover, &:focus{
+			transform: translateY(-10px);
+			-webkit-transform: translateY(-10px);
+			-moz-transform: translateY(-10px);
+			box-shadow: $box-shadow;
+		}
+
+}
+
+/*Animation*/
+.slideout-enter{
+	opacity: 0;
+	transform: translateX(-12px);
+	-webkit-transform: translateX(-12px);
+}
+.slideout-enter-active, .slideout-leave-active{
+	transition: opacity 0.4s, transform 0.4s;
+	-webkit-transition: opacity 0.4s, transform 0.4s;
+}
+.slideout-leave-to{
+	opacity: 0;
+	transform: translateX(12px);
+	-webkit-transform: translateX(12px);
+} 

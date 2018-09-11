@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="800px" height="800px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 800 800"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#98D7EE;fill-rule:nonzero;fill-opacity:0.050980}
+    .fil8 {fill:#98D7EE;fill-rule:nonzero;fill-opacity:0.501961}
+    .fil4 {fill:url(#id0)}
+    .fil6 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+    .fil5 {fill:url(#id3)}
+    .fil3 {fill:url(#id4)}
+    .fil7 {fill:url(#id5)}
+    .fil1 {fill:url(#id6)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="169.714" y1="396.262" x2="628.141" y2="468.394">
+   <stop offset="0" style="stop-opacity:1; stop-color:#8BD3ED"/>
+   <stop offset="0.478431" style="stop-opacity:1; stop-color:#BEE2EF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F2F2F2"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="61.3159" y1="501.615" x2="519.745" y2="573.748">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="278.109" y1="290.907" x2="736.538" y2="363.04">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="115.514" y1="448.939" x2="573.944" y2="521.071">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="223.91" y1="343.585" x2="682.34" y2="415.717">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="10.428" y1="552.972" x2="465.375" y2="624.559">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="332.412" y1="239.38" x2="788.694" y2="311.177">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M87 93l660 633c9,8 11,19 6,30 -5,10 -16,16 -29,16l-660 0c-17,0 -31,-12 -31,-27l0 -633c0,-12 8,-22 20,-26 12,-4 25,-2 34,7z"/>
+  <path class="fil1" d="M355 92l17 -17c3,-3 8,-6 12,-8l382 388c-2,4 -4,8 -8,12l-17 17 -386 -392z"/>
+  <polygon class="fil2" points="301,144 328,118 714,510 687,536 "/>
+  <polygon class="fil3" points="246,197 274,170 660,562 633,589 "/>
+  <polygon class="fil4" points="192,250 220,223 606,615 578,642 "/>
+  <polygon class="fil5" points="138,302 165,276 551,668 524,694 "/>
+  <polygon class="fil6" points="84,355 111,328 497,720 470,747 "/>
+  <path class="fil7" d="M43 395l14 -14 386 392 -14 14c-5,5 -10,8 -16,9l-380 -385c2,-6 5,-11 10,-16z"/>
+ </g>
+ <g id="Layer_x0020_2">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil8" d="M125 185l533 511c7,7 9,16 5,24 -4,8 -13,13 -23,13l-534 0c-14,0 -25,-10 -25,-22l0 -511c0,-10 6,-18 16,-21 10,-3 21,-1 28,6z"/>
+ </g>
+</svg>

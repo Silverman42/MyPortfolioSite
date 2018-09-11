@@ -1,0 +1,16 @@
+[
+	{
+		"bigHeader": "Our Vision",
+		"hero": "Make Delta State a Smarter city, International destination and National Centre for ICT Innovation and Knowledge Creation.",
+		"illustration": "img/about/outer-space.svg",
+		"bg": [{"background": "#2980b9"},{"background": "-webkit-linear-gradient(to right, #2980b9, #2c3e50)"},{"background": "linear-gradient(to right, #2980b9, #2c3e50)"}],
+		"textColor":["has-text-light"]
+	},
+	{
+		"bigHeader": "Our Mission",
+		"hero": "Applying a Public-Private-Partnership (PPP) Development model to strategically harness all knowledge attributes, Potentials and ICT processes in and beyond the Delta State Region as the Core accelerateor for creativity, Innovation and Wealth creation.",
+		"illustration": "img/about/handshake.svg",
+		"bg": [{"background": "transparent"}],
+		"textColor":[]
+	}
+]

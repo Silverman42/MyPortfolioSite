@@ -1,0 +1,12 @@
+//Font family for Title and subtitle class
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800|Mukta+Malar);
+
+$family-sans-serif : 'Mukta Malar';
+$title-weight: 800;
+
+.title{
+	font-family: 'Montserrat', sans-serif !important;
+}
+.has-space{
+	letter-spacing: $letter-spacing;
+}

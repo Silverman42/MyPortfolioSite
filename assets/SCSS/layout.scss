@@ -1,0 +1,20 @@
+//Flexbox-attributes
+.is-self-align--top{
+	@include vendors(align-self, flex-start)
+}
+
+.is-self-align--bottom{
+	@include vendors(align-self, flex-end)
+}
+
+.is-self-align--center{
+	align-self: center;			
+	-webkit-align-self: center;
+}
+.has-wrap{
+	@include vendors(flex-wrap, wrap)
+}
+
+.has-fullwidth{
+	width: 100%;
+}
