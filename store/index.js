@@ -16,10 +16,10 @@ const generate = ()=>{
 const backgrounds = ()=>{
     return new Vuex.Store({
         state:{
-            projects : "",
-            about: "",
-            contact: "",
-            events:"" 
+            projects : generate(),
+            about: generate(),
+            contact: generate(),
+            events:generate() 
         },
         mutations:{
             createColor(state,payload){

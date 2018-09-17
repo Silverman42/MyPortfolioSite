@@ -1,15 +1,28 @@
 //Flexbox-attributes
+
+//Horizontal Alignment
+.is-aligned-center{
+	margin: auto;
+}
+
+//Vertical Alignment
 .is-self-align--top{
-	@include vendors(align-self, flex-start)
+	align-self: flex-start;
+	-webkit-align-self: flex-start;
 }
 
 .is-self-align--bottom{
-	@include vendors(align-self, flex-end)
+	align-self: flex-end;
+	-webkit-align-self: flex-end;
 }
 
 .is-self-align--center{
 	align-self: center;			
 	-webkit-align-self: center;
+}
+.is-justified--center{
+	justify-content: center;
+	-webkit-justify-content: center;
 }
 .has-wrap{
 	@include vendors(flex-wrap, wrap)

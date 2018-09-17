@@ -1,36 +1,162 @@
 <template>
 <div>
     <section class="section">
-        <nuxt-link to="/" class="title is-size-5 has-text-white">Home</nuxt-link> 
-        <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/projects">Projects</nuxt-link>
-        <nuxt-link to="/events">Events</nuxt-link>
-        <nuxt-link to="/contact">Contact</nuxt-link>
         <div class="columns is-centered">
-            <div class="column is-10">
-                <h1 class="title is-size-7 is-uppercase has-space">Home</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, earum impedit. Magnam totam non dignissimos nobis doloribus quam maiores! Molestiae ad ducimus perferendis totam adipisci quasi in eius repellat minus.</p>
+            <div class="column is-10 has-text-black">
+                <div class="columns is-centered is-multiline tiles-contain">
+                    <div class="column is-10 has-text-centered-mobile">
+                        <p class="is-size-6">Hello, I am</p>
+                        <h1 class="title is-size-4 is-size-5-mobile">Nkeze Sylvester Uche</h1>
+                    </div>
+                    <nuxt-link to="/about" class="column is-2 custom-tiles scale is-flex is-justified--center" :style="{background: aboutBg}">
+                        <div class="is-self-align--center">
+                            <figure class="image is-128x128">
+                                <img class="is-rounded" src="img/myAvatar.png" alt="">
+                            </figure>
+                        </div>
+                    </nuxt-link>
+                    <nuxt-link to="/about" class="column is-8 custom-tiles scale has-wrap is-flex" :style="{background: aboutBg}">
+                        <h1 class="title is-size-7 is-uppercase has-space has-text-white has-fullwidth"><i class="fa fas fa-info-circle"></i>&nbsp;ABOUT ME</h1>
+                        <div class="is-10 has-text-white has-fullwidth is-self-align--center is-aligned-center">
+                            <div class="truncate-text is-size-6 has-margin mv1">
+                                <div class="hide" :style="{'box-shadow':'inset 0px -7px 11px 0px '+aboutBg }">
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolorem, quo fugiat obcaecati placeat omnis nesciunt exercitationem aspernatur dolores vitae eveniet sit magnam repellendus ipsa commodi, natus iusto eius.</p> 
+                            </div>
+                            <p class="is-size-7 has-space is-uppercase">see more</p>
+                        </div>
+                        
+                        <p class="is-size-5 has-text-white has-text-right has-fullwidth is-self-align--bottom">
+                            13
+                        </p>
+                    </nuxt-link>
+                    <nuxt-link to="/projects" class="column is-10 custom-tiles scale has-wrap is-flex" :style="{background: projectBg}">
+                        <h1 class="title is-size-7 is-uppercase has-space has-text-white has-fullwidth"><i class="fa fas fa-project-diagram"></i>&nbsp;Projects</h1>
+                        <div class="is-10 has-text-white has-fullwidth is-self-align--center is-aligned-center">
+                            <div class="truncate-text is-size-6 has-margin mv1">
+                                <div class="hide" :style="{'box-shadow':'inset 0px -7px 11px 0px '+projectBg }">
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolorem, quo fugiat obcaecati placeat omnis nesciunt exercitationem aspernatur dolores vitae eveniet sit magnam repellendus ipsa commodi, natus iusto eius.</p> 
+                            </div>
+                            <p class="is-size-7 has-space is-uppercase">see more</p>
+                        </div>
+                        
+                        <p class="is-size-5 has-text-white has-text-right has-fullwidth is-self-align--bottom">
+                            13
+                        </p>
+                    </nuxt-link>
+                    
+                    <nuxt-link to="/events" class="column is-5 custom-tiles scale has-wrap is-flex" :style="{background: eventBg}">
+                        <h1 class="title is-size-7 is-uppercase has-space has-text-white has-fullwidth"><i class="fa fas fa-calendar-alt"></i>&nbsp;Events</h1>
+                        <div class="is-10 has-text-white has-fullwidth is-self-align--center is-aligned-center">
+                            <div class="truncate-text is-size-6 has-margin mv1">
+                                <div class="hide" :style="{'box-shadow':'inset 0px -7px 11px 0px '+eventBg }">
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolorem, quo fugiat obcaecati placeat omnis nesciunt exercitationem aspernatur dolores vitae eveniet sit magnam repellendus ipsa commodi, natus iusto eius.</p> 
+                            </div>
+                            <p class="is-size-7 has-space is-uppercase">see more</p>
+                        </div>
+                        
+                        <p class="is-size-5 has-text-white has-text-right has-fullwidth is-self-align--bottom">
+                            13
+                        </p>
+                    </nuxt-link>
+                    
+                    <nuxt-link to="/contact" class="column is-5 custom-tiles scale has-wrap is-flex" :style="{background: contactBg}">
+                        <h1 class="title is-size-7 is-uppercase has-space has-text-white has-fullwidth"><i class="fa fas fa-comment-alt"></i>&nbsp;Contact</h1>
+                        <div class="is-10 has-text-white has-fullwidth is-self-align--center is-aligned-center">
+                            <div class="truncate-text is-size-6 has-margin mv1">
+                                <div class="hide" :style="{'box-shadow':'inset 0px -7px 11px 0px '+contactBg }">
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolorem, quo fugiat obcaecati placeat omnis nesciunt exercitationem aspernatur dolores vitae eveniet sit magnam repellendus ipsa commodi, natus iusto eius.</p> 
+                            </div>
+                            <p class="is-size-7 has-space is-uppercase">see more</p>
+                        </div>
+                        
+                        <p class="is-size-5 has-text-white has-text-right has-fullwidth is-self-align--bottom">
+                            13
+                        </p>
+                    </nuxt-link>
+                </div>
             </div>
         </div>
     </section>
 </div>
 </template>
 <script>
-import { mapState } from "vuex";
+import {mapState} from 'vuex';
 export default {
     layout: 'custom',
+    transition:'zoom',
+    methods:{
+        mapBgColor(color){
+            return `rgb(${color[0]},${color[1]},${color[2]})`;
+        }
+    },
     computed:{
-        fetch(){
-            console.log('this.test');
-            return 'happy';
+        aboutBg(){
+            const color = this.$store.state.about;
+            return this.mapBgColor(color);
+        },
+        projectBg(){
+            const color = this.$store.state.projects;
+            return this.mapBgColor(color);
+        },
+        contactBg(){
+            const color = this.$store.state.contact;
+            return this.mapBgColor(color);
+        },
+        eventBg(){
+            const color = this.$store.state.events;
+            return this.mapBgColor(color);
         }
     }
-    ,mounted(){
- 
+};
+</script>
+<style lang="scss">
+.tiles-contain{
+    perspective: 1000px;
+}
+.custom-tiles {
+    border-radius: 5px;
+    margin: 4px;
+    height: 170px;
+    overflow-y: hidden;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+
+    &.scale, &.rotate{
+        transition: transform 0.4s ease-out, background 0.4s ease-out;
+        -webkit-transition: transform 0.4s ease-out, background 0.4s ease-out;
+    }
+
+    &.scale:hover, &.scale:focus{
+        transform: scale(0.9,0.9);
+        -webkit-transform: scale(0.9,0.9);
+    }
+
+}
+
+.truncate-text{
+    position: relative;
+    max-height: 50px;
+    overflow: hidden;
+
+    .hide{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index:2;
     }
 }
-</script>
-<style lang="sass">
+
 
 </style>
 
