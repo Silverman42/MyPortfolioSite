@@ -36,7 +36,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#0c82d1' },
+  loading: { color: 'transparent' },
   generate: {
     /*
     ** Build output, default is ./dist

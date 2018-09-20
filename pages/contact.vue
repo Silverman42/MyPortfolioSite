@@ -1,10 +1,51 @@
 <template>
-<div>
+<div style="padding-bottom: 50px">
     <section class="section">
         <div class="columns is-centered">
             <div class="column is-10 has-text-white">
-                <h1 class="title is-size-7 is-uppercase has-space has-text-white">Contact</h1>
-                <p class="is-size-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, earum impedit. Magnam totam non dignissimos nobis doloribus quam maiores! Molestiae ad ducimus perferendis totam adipisci quasi in eius repellat minus.</p>
+                <div class="columns is-centered is-multiline">
+                    <div class="column is-12">
+                        <h1 class="title is-size-7 is-uppercase has-space has-text-white">Contact</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="column is-10">
+                <div class="columns is-multiline">
+                    <a class="column is-3 sub-categories hover is-flex has-margin mv1 mh1 has-padding pv2 ph2">
+                        <figure class="image is-24x24">
+                            <img src="img/social/facebook-logo.svg" alt="">
+                        </figure>
+                        <span>&nbsp; Facebook</span>
+                    </a>
+                    <a class="column is-3 sub-categories hover is-flex has-margin mv1 mh1 has-padding pv2 ph2">
+                        <figure class="image is-24x24">
+                            <img src="img/social/twitter-logo-button.svg" alt="">
+                        </figure>
+                        <span>&nbsp; Twitter</span>
+                    </a>
+                    <a class="column is-3 sub-categories hover is-flex has-margin mv1 mh1 has-padding pv2 ph2">
+                        <figure class="image is-24x24">
+                            <img src="img/social/github.svg" alt="">
+                        </figure>
+                        <span>&nbsp; Github</span>
+                    </a>
+                    <a class="column is-3 sub-categories hover is-flex has-margin mv1 mh1 has-padding pv2 ph2">
+                        <figure class="image is-24x24">
+                            <img src="img/social/linkedin-logo.svg" alt="">
+                        </figure>
+                        <span>&nbsp; Linkedin</span>
+                    </a>
+                    <a class="column is-3 sub-categories hover is-flex has-margin mv1 mh1 has-padding pv2 ph2">
+                        <figure class="image is-24x24">
+                            <img src="img/social/close-envelope.svg" alt="">
+                        </figure>
+                        <span>&nbsp; Email</span>
+                    </a>    
+                </div>
             </div>
         </div>
     </section>

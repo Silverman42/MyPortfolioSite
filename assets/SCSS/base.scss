@@ -105,3 +105,34 @@
 	transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 }
+
+//Page sub categories
+.sub-categories{
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.137);
+
+	&.hover{
+		color: white;
+		transition: transform 0.3s ease-out;
+		-webkit-transition: transform 0.3s ease-out;
+		
+		&:hover,&:focus{
+			color: white;
+			transform: scale(0.9);
+			-webkit-transform: scale(0.9);
+		}
+	}
+	 
+	&.has-height{
+		min-height: 400px;
+	}
+}
+.object-tag{
+	display: inline-block;
+	width:auto;
+	padding: 3px 6px;
+	margin: 4px;
+	color: black;
+	background: white;
+	border-radius: 50px;
+}

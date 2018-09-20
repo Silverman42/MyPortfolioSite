@@ -1,6 +1,6 @@
 <template>
 <div>
-  <a @click="createColor" class="magic-wand has-text-white has-text-centered">
+  <a @click.prevent="createColor" class="magic-wand has-text-white has-text-centered" title="Change Color">
     <i class="fa fas fa-magic"></i>  
   </a> 
   <div class="main" :style="{background: `url(img/bg.png) ${changeBg}`}">
@@ -8,13 +8,13 @@
   </div>
   <!--Menu Switch-->
   <nav class="page-switch" :class="{hide: hidePageSwitch}">
-    <div class="columns is-centered is-multiline has-fullwidth">
+    <div class="columns is-centered is-multiline has-fullwidth" style="margin:auto">
       <div class="column is-5 is-10-mobile has-margin mv3 is-flex nav-tray has-text-black">
-          <nuxt-link class="nav-key" to="/"><span><i class="fa fas fa-home"></i></span></nuxt-link>
-          <nuxt-link class="nav-key" :style="getAboutBg"  to="/about"><span><i class="fa fas fa-info-circle"></i></span></nuxt-link>
-          <nuxt-link class="nav-key" :style="getProjectBg"  to="/projects"><span><i class="fa fas fa-project-diagram"></i></span></nuxt-link>
-          <nuxt-link class="nav-key" :style="getEventBg"  to="/events"><span><i class="fa fas fa-calendar-alt"></i></span></nuxt-link>
-          <nuxt-link class="nav-key" :style="getContactBg"  to="/contact"><span><i class="fas fa-comment-alt"></i></span></nuxt-link>
+          <nuxt-link class="nav-key" to="/" title="Home"><span><i class="fa fas fa-home"></i></span></nuxt-link>
+          <nuxt-link class="nav-key" :style="getAboutBg"  to="/about" title="About me"><span><i class="fa fas fa-info-circle"></i></span></nuxt-link>
+          <nuxt-link class="nav-key" :style="getProjectBg"  to="/projects" title="Projects"><span><i class="fa fas fa-project-diagram"></i></span></nuxt-link>
+          <nuxt-link class="nav-key" :style="getEventBg"  to="/events" title="Events"><span><i class="fa fas fa-calendar-alt"></i></span></nuxt-link>
+          <nuxt-link class="nav-key" :style="getContactBg"  to="/contact" title="Contact"><span><i class="fas fa-comment-alt"></i></span></nuxt-link>
       </div> 
     </div>
   </nav>
@@ -119,7 +119,7 @@ export default {
 .nav-tray{
   margin:auto;
   border-radius: 50px;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   justify-content: space-around;
 }
 .nav-key{

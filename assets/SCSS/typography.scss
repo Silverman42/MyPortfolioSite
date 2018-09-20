@@ -10,3 +10,12 @@ $title-weight: 800;
 .has-space{
 	letter-spacing: $letter-spacing;
 }
+
+.anchor_grey{
+	color:white;
+	text-decoration: none;
+	&:hover,&:focus{
+		text-decoration: none;
+		color: rgb(216, 218, 218);
+	}
+}
