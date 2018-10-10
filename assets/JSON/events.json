@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Web Design MasterClass",
+        "by":"Delta State Innovation Hub, Asaba",
+        "description": "I gave an introductory lecture on web design. The lecture was a 2-day program which included an introduction to HTML, CSS, web design tools and principles",
+        "date":"23rd & 24th Sept. 2018",
+        "venue":"Delta State Innovation Hub, Asaba"
+    },
+    {
+        "name":"Smart Developers Use Smart Tools",
+        "by":"For-loop Africa",
+        "description": "The event exposed developers to a flurry of efficient tools such as cloud services (heroku), version control systems (Git) e.t.c that aid in the speedy delivery of softwares",
+        "date":"10th Nov. 2017",
+        "venue":"Delta State Innovation Hub, Asaba"
+    }
+]

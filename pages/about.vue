@@ -22,27 +22,38 @@
                 <!--Content-->
                 <div class="columns is-centered is-multiline is-mobile">
                     <div class="column is-12">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat est at dolorem, error inventore consequuntur labore aut porro nemo! Odio enim nam nihil sed, molestiae architecto eveniet itaque doloremque blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam error cupiditate, doloribus iure itaque blanditiis ex nihil commodi sapiente quaerat, saepe, ab nulla voluptates eum odio vero? Culpa, laboriosam?</p>
+                        <p class="has-margin mv2">I love music, colors and all things art. These feats incite my attention for detail and beauty which is quite evident in my workflow. Programming is just the perfect tool which helps me express the aforementioned feats without limits. In a much cooler sense, I program artistically :) </p>
+                        <p class="has-margin mv2">In my spare time, you could find me playing games (PC game lover by the way), watching game of thrones or reading my favorite posts on Dev.to.</p>
+                        <p class="has-margin mv2">My favorite stack at the moment is Vue.js / Bulma at the frontend and Laravel at Backend. Currently I am brushing up my Node.js skills and I am really loving it. I also do graphical designs with Corel Draw.</p>
+                        <p class="has-margin mv2">I am a graduate of the University of Benin with a BSc in Computer Science and over 3 years of experience in web development. </p>
                     </div>
                 </div>
 
                 <!--Operation Stack-->
-                <div class="columns is-multiline">
+                <div class="columns is-multiline is-centered">
+
+                    <!--Dev Tools-->
                     <div class="column is-5 sub-categories has-margin mv1 mh1 has-padding pv2 ph2">
                         <h2 class="subtitle is-size-7 has-space is-uppercase has-text-white">Development Tools</h2>
-                        <span class="object-tag">PHP7</span> <span class="object-tag">Javascript</span><span class="object-tag">CSS3</span><span class="object-tag">MySQL</span>
+                        <span v-for="({skill},index) in devTool" :key="index" class="object-tag">{{skill}}</span> 
                     </div>
+
+                    <!--Library-->
                     <div class="column is-5 sub-categories has-margin mv1 mh1 has-padding pv2 ph2">
                         <h2 class="subtitle is-size-7 has-space is-uppercase has-text-white">Libraries and Frameworks</h2>
-                        <span class="object-tag">Laravel</span><span class="object-tag">Bulma</span><span class="object-tag">Bootstrap</span><span class="object-tag">Jquery</span><span class="object-tag">Vuejs</span>
+                        <span v-for="({skill},index) in library" :key="index" class="object-tag">{{skill}}</span>
                     </div>
+
+                    <!--Graphic Tools-->
                     <div class="column is-5 sub-categories has-margin mv1 mh1 has-padding pv2 ph2">
-                        <h2 class="subtitle is-size-7 has-space is-uppercase has-text-white">Grapic design tool</h2>
-                        <span class="object-tag">Corel Draw</span>
+                        <h2 class="subtitle is-size-7 has-space is-uppercase has-text-white">Graphic design tool</h2>
+                        <span v-for="({skill},index) in graphics" :key="index" class="object-tag">{{skill}}</span>
                     </div>
+
+                    <!--Version Control Tools-->
                     <div class="column is-5 sub-categories has-margin mv1 mh1 has-padding pv2 ph2">
                         <h2 class="subtitle is-size-7 has-space is-uppercase has-text-white">Version Control and Cloud Storage Tools</h2>
-                        <span class="object-tag">Git</span><span class="object-tag">Github</span><span class="object-tag">Gitlab</span><span class="object-tag">Heroku</span>
+                        <span v-for="({skill},index) in versionControl" :key="index" class="object-tag">{{skill}}</span>
                     </div>
                 </div>
             </div>
@@ -51,11 +62,35 @@
 </div>
 </template>
 <script>
+import about from "../assets/JSON/about.json";
 export default {
     layout: 'custom',
     head:{
 			title: 'About me'
-		}
+		},
+    data(){
+        return{
+            about
+        }
+    },
+    computed:{
+        devTool(){
+            let skill =  this.about.filter((array)=>array.category == "devTool");
+            return skill
+        },
+        library(){
+            let lib =  this.about.filter((array)=>array.category == "library");
+            return lib
+        },
+        versionControl(){
+            let VC =  this.about.filter((array)=>array.category == "VC");
+            return VC
+        },
+        graphics(){
+            let graphics = this.about.filter((array)=>array.category == "graphicTool");
+            return graphics
+        }
+    }
 }
 </script>
 <style lang="sass">

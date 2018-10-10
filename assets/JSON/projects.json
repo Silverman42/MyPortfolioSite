@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Questgen",
+		"description":"A web repository for storing questions and generating them randomly  for universities and Tertiary institutions",
+		"link":"https://questgen.herokuapp.com",
+		"stacks": ["Laravel","Jquery","Bootstrap","Heroku"]
+	},
+	{
+		"name": "Portfolio",
+		"description":"My Portfolio website",
+		"link":"https://silverman42.github.io/sylvesterNkeze",
+		"git":"https://github.com/silverman42/sylvesterNkeze",
+		"stacks": ["Nuxt","Vuejs","Bulma","Git"]
+	},
+	{
+		"name": "Delta State Innovation Hub",
+		"description":"A prototype remodeling for Delta State Innovation Hub’s website.",
+		"link":"https://silverman42.github.io/newDSIHUB",
+		"git":"https://github.com/silverman42/newDSIHUB",
+		"stacks": ["Nuxt","Vuejs","Bulma","Git","MySql"]
+	},
+	{
+		"name": "Prospectus Naija",
+		"description":"A web Application for creating and Printing formal Letters on the fly",
+		"git":"https://github.com/silverman42/Prospectus-Naija",
+		"stacks": ["Jquery","Php","MySql"]
+	},
+	{
+		"name": "Makawai Media",
+		"description":" An online newspaper for all things News",
+		"link":"http://www.makawai.com",
+		"stacks": ["Wordpress"]
+	},
+	{
+		"name": "Quickslides",
+		"description":" A library for adding responsive slides to a webpage",
+		"link":"https://silverman42.github.io/QuickSlides",
+		"git":"https://github.com/Silverman42/QuickSlides/",
+		"stacks": ["Jquery","CSS","HMTL5"]
+	},
+	{
+		"name": "Affordable Luxury",
+		"description":" A static website for the Affordable luxury company",
+		"link":"https://silverman42.github.io/afforadble_luxury/",
+		"stacks": ["HTML5","CSS","Jquery","Bootstrap"]
+	}
+]
