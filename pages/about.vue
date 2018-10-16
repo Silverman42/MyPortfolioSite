@@ -9,7 +9,7 @@
                     </div>
                     <div class="column is-5-mobile is-2-desktop">
                         <figure class="image is-5by5">
-                            <img class="is-rounded" src="img/myAvatar.png" alt="">
+                            <img class="is-rounded" src="img/profile.jpg" alt="">
                         </figure>
                     </div>
                     <div class="column is-7-mobile is-10-desktop has-text-white is-flex">

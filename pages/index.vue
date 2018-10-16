@@ -11,7 +11,7 @@
                     <nuxt-link to="/about" class="column is-2 custom-tiles scale is-flex is-justified--center" :style="{background: aboutBg}">
                         <div class="is-self-align--center">
                             <figure class="image is-128x128">
-                                <img class="is-rounded" src="img/myAvatar.png" alt="">
+                                <img class="is-rounded" src="img/profile.jpg" alt="">
                             </figure>
                         </div>
                     </nuxt-link>
@@ -73,19 +73,38 @@
                     
                     <nuxt-link to="/contact" class="column is-5 custom-tiles scale has-wrap is-flex" :style="{background: contactBg}">
                         <h1 class="title is-size-7 is-uppercase has-space has-text-white has-fullwidth"><i class="fa fas fa-comment-alt"></i>&nbsp;Contact</h1>
-                        <div class="is-10 has-text-white has-fullwidth is-self-align--center is-aligned-center">
-                            <div class="truncate-text is-size-6 has-margin mv1">
-                                <div class="hide" :style="{'box-shadow':'inset 0px -7px 11px 0px '+contactBg }">
-
-                                </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque doloribus dolorem, quo fugiat obcaecati placeat omnis nesciunt exercitationem aspernatur dolores vitae eveniet sit magnam repellendus ipsa commodi, natus iusto eius.</p> 
-                            </div>
-                            <p class="is-size-7 has-space is-uppercase">see more</p>
-                        </div>
-                        
-                        <p class="is-size-5 has-text-white has-text-right has-fullwidth is-self-align--bottom">
-                            13
-                        </p>
+                        <div class="is-10 is-flex has-text-white has-fullwidth is-self-align--center is-aligned-center">
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/facebook-logo.svg" alt="Facebook">
+                                </figure>
+                            </span>
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/twitter-logo-button.svg" alt="Twitter">
+                                </figure>
+                            </span>
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/github.svg" alt="Github">
+                                </figure>
+                            </span>
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/linkedin-logo.svg" alt="LinkedIn">
+                                </figure>
+                            </span>
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/close-envelope.svg" alt="email">
+                                </figure>
+                            </span>
+                            <span class="has-margin mh1 mv1">
+                                <figure class="image is-24x24">
+                                    <img src="img/social/practical_DEV.svg" alt="DEV.to">
+                                </figure>
+                            </span>
+                        </div>    
                     </nuxt-link>
                 </div>
             </div>
