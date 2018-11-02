@@ -7,9 +7,6 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {};
 
-/*Require path*/
-const path = require('path');
-
 
 module.exports = {
   /*
@@ -34,7 +31,7 @@ module.exports = {
     ]
   },
    modules: ['nuxt-sass-resources-loader'],
-  sassResources: [path.resolve(__dirname, 'assets/scss/main.scss')],
+  sassResources: ['@/assets/scss/main.scss'],
   ...routerBase,
   /*
   ** Customize the progress bar color
