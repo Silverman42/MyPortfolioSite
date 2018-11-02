@@ -43,7 +43,7 @@ module.exports = {
     ** This demo site is deployed to Github Pages with a custom domain name
     ** Github Pages will use ./docs for site root
     */
-    dir: 'docs'
+    dir: 'dist'
   },
   /*
   ** Build configuration
